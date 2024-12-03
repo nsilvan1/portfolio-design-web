@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de desenvolvedor web iniciante, destacando projetos, habilidades e informações de contato.">
+    <meta name="keywords" content="desenvolvedor web, portfólio, projetos web, contato, habilidades">
+    <meta name="author" content="Nathan Silva">
+    <title>Portfólio - Desenvolvedor Web</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nathan Silva</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="sobre" class="section">
+            <div class="container">
+                <img src="https://cdn-icons-png.flaticon.com/512/10061/10061736.png" alt="Foto do desenvolvedor" class="profile-pic">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor web iniciante com paixão por criar soluções eficientes e criativas. Este é meu portfólio onde compartilho meus projetos e habilidades.</p>
+            </div>
+        </section>
+        <section id="projetos" class="section">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-id-card"></i>
+                                </div>
+                                <h3>Validador de CPF/CNPJ</h3>
+                                <p>Um sistema simples e eficaz para validar a autenticidade de números de CPF e CNPJ.</p>
+                                <span class="tag">Validação</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h3>Gerador de Senhas Seguras</h3>
+                                <p>Uma ferramenta prática para criar senhas aleatórias e seguras.</p>
+                                <span class="tag">Segurança</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <h3>Agenda de Tarefas</h3>
+                                <p>Uma aplicação interativa para gerenciar suas tarefas diárias.</p>
+                                <span class="tag">Produtividade</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="project-card">
+                                <div class="project-icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </div>
+                                <h3>Conversor de Moedas</h3>
+                                <p>Um conversor que permite calcular valores em diferentes moedas.</p>
+                                <span class="tag">Financeiro</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+                    <button class="carousel-btn next" onclick="moveCarousel(1)">&#10095;</button>
+                </div>
+            </div>
+        </section>
+        
+        
+       
+        <section id="depoimentos" class="section">
+            <div class="container">
+                <h2>Depoimentos</h2>
+                <div class="testimonials">
+                    <blockquote>
+                        <p>"Ótimo desenvolvedor! Muito dedicado e criativo."</p>
+                        <cite>- Cliente 1</cite>
+                    </blockquote>
+                    <blockquote>
+                        <p>"Adorei trabalhar com ele, recomendo fortemente."</p>
+                        <cite>- Cliente 2</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Contato</h2>
+                <form action="https://formspree.io/f/{your-form-id}" method="POST">
+                    <input type="text" name="name" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <textarea name="message" rows="5" placeholder="Deixe sua mensagem e faça seu orçamento!" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Nathan Silva - Todos os direitos reservados</p>
+            <p><a href="mailto:seuemail@exemplo.com">nathan_nunes92@hotmail.com</a></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/nathan-silva-%C2%A4-162087ab/" target="_blank" class="social-btn">LinkedIn</a>
+                <a href="https://github.com/nsilvan1" target="_blank" class="social-btn">GitHub</a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
